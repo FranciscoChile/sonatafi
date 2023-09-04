@@ -18,4 +18,5 @@ Main class take one file with JSON examples, process everything using two classe
 Run using Maven
 
 mvn clean package
+
 mvn exec:java -Dexec.mainClass="com.sonatafi.Main"
