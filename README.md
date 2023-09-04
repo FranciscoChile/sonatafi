@@ -14,3 +14,8 @@ Thinking process
 Summary
 
 Main class take one file with JSON examples, process everything using two classes and show a message in the case of property changes. Took me 5 hours.
+
+Run using Maven
+
+mvn clean package
+mvn exec:java -Dexec.mainClass="com.sonatafi.Main"
